@@ -1,0 +1,56 @@
+.h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.05em;
+}
+
+.h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+}
+
+.l1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.1em;
+}
+
+.l2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.p1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.p2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 166.667%;
+  letter-spacing: 0.02em;
+}
+
+.p3 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 185.714%;
+  letter-spacing: 0.02em;
+}

@@ -1,0 +1,11 @@
+:root {
+  --c-primary: #555;
+  --c-secondary: #303030;
+  --c-text: #9da4bd;
+  --c-text-60: #9da4bd99;
+
+  --c-accent: #ff6c00;
+
+  --c-white: #fff;
+  --c-black: #000;
+}

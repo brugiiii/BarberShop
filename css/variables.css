@@ -1,6 +1,10 @@
 :root {
   --c-primary: #555;
   --c-secondary: #303030;
+
+  --c-dark: #111319;
+  --c-light: #f7f7f7;
+
   --c-text: #9da4bd;
   --c-text-60: #9da4bd99;
 

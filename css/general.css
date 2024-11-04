@@ -7,6 +7,16 @@ body {
   color: var(--c-primary);
 }
 
+.container {
+  padding: 0 215px;
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.hero {
+  background-color: var(--c-secondary);
+}
+
 .nav-list__link {
   color: var(--c-white);
 }
@@ -48,10 +58,12 @@ body {
 }
 
 .hero-title {
+  margin-top: 20px;
   color: var(--c-white);
 }
 
 .hero-description {
+  margin-top: 20px;
   color: var(--c-text);
 }
 
@@ -66,17 +78,32 @@ body {
   color: var(--c-text-60);
 }
 
+.about {
+  padding: 120px 0;
+}
+
 .about-caption {
   color: var(--c-secondary);
 }
 
 .about-title {
+  margin-top: 20px;
   color: var(--c-secondary);
 }
 
+.about-description {
+  margin-top: 20px;
+}
+
+.about-text {
+  margin-top: 20px;
+}
+
 .about-button {
+  margin-top: 42px;
   letter-spacing: 0.09em;
   text-transform: uppercase;
+  background-color: transparent;
   color: var(--c-secondary);
 }
 
@@ -88,6 +115,10 @@ body {
   color: var(--c-white);
 }
 
+.price-list__item:not(:first-child) {
+  margin-top: 20px;
+}
+
 .price-list__title {
   color: var(--c-text);
 }
@@ -96,18 +127,38 @@ body {
   color: var(--c-text);
 }
 
+.services {
+  padding: 120px 0;
+  background-color: var(--c-dark);
+}
+
 .services-caption {
   color: var(--c-text-60);
 }
 
 .services-title {
+  margin-top: 20px;
   color: var(--c-white);
 }
 
+.services-wrapper {
+  margin-top: 42px;
+}
+
 .services-button {
+  margin-top: 44px;
   letter-spacing: 0.09em;
   text-transform: uppercase;
+  background-color: var(--c-accent);
   color: var(--c-white);
+}
+
+.benefits-list__item {
+  width: 170px;
+  padding: 20px 24px;
+  background-color: var(--c-light);
+  margin-top: 20px;
+  text-align: center;
 }
 
 .benefits-list__title {
@@ -115,6 +166,7 @@ body {
 }
 
 .benefits-list__text {
+  text-transform: initial;
   color: var(--c-secondary);
 }
 
@@ -123,7 +175,12 @@ body {
 }
 
 .benefits-title {
+  margin-top: 20px;
   color: var(--c-secondary);
+}
+
+.benefits-description {
+  margin-top: 20px;
 }
 
 .benefits-list__title sup {
@@ -135,7 +192,16 @@ body {
 }
 
 .barbers-title {
+  margin-top: 20px;
   color: var(--c-secondary);
+}
+
+.barbers-list {
+  margin-top: 44px;
+}
+
+.barbers-list__item {
+  text-align: center;
 }
 
 .barbers-list__title {
@@ -165,18 +231,36 @@ body {
   color: var(--c-secondary);
 }
 
+.gallery-images {
+  margin-top: 44px;
+}
+
 .form-title {
   color: var(--c-white);
 }
 
 .form-button {
+  margin-top: 44px;
   letter-spacing: 0.09em;
   text-transform: uppercase;
+  background-color: transparent;
   color: var(--c-white);
+}
+
+.contacts {
+  background-color: var(--c-dark);
 }
 
 .contacts-title {
   color: var(--c-white);
+}
+
+.contacts-list {
+  margin-top: 40px;
+}
+
+.contacts-list__item:not(:first-child) {
+  margin-top: 20px;
 }
 
 .contacts-list__item:first-child .contacts-list__link {
@@ -206,20 +290,6 @@ body {
 }
 
 .schedule-wrapper__text {
+  margin-top: 20px;
   color: var(--c-text);
-}
-
-.copyright {
-  color: var(--c-text);
-}
-
-.footer-socials__link {
-  text-transform: initial;
-  letter-spacing: 0.2em;
-  color: var(--c-secondary);
-}
-
-.footer-socials__link:hover,
-.footer-socials__link:focus {
-  color: var(--c-accent);
 }

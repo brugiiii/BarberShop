@@ -1,0 +1,22 @@
+.header {
+  background-color: var(--c-secondary);
+}
+
+.header__button {
+  background-color: transparent;
+}
+
+.copyright {
+  color: var(--c-text);
+}
+
+.footer-socials__link {
+  text-transform: initial;
+  letter-spacing: 0.2em;
+  color: var(--c-secondary);
+}
+
+.footer-socials__link:hover,
+.footer-socials__link:focus {
+  color: var(--c-accent);
+}

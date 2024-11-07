@@ -37,7 +37,7 @@
 
   <body>
     <header class="header">
-      <div class="container">
+      <div class="header-container container">
         <a class="logo" href="./test.html">
           <svg class="logo-icon" width="69" height="56">
             <use href="./images/sprite.svg#icon-logo"></use>
@@ -76,7 +76,7 @@
 
     <main class="page">
       <section class="hero">
-        <div class="container">
+        <div class="hero-container container">
           <ul class="hero-socials">
             <li class="hero-socials__item">
               <a class="hero-socials__link p1" href="https://instagram.com">
@@ -113,7 +113,7 @@
       </section>
 
       <section id="about" class="about">
-        <div class="container">
+        <div class="about-container container">
           <ul class="about-images">
             <li class="about-images__item">
               <img
@@ -165,18 +165,22 @@
               <ul class="price-list">
                 <li class="price-list__item">
                   <h3 class="price-list__title p2">Men’s haircut</h3>
+                  <span class="price-list__separator"></span>
                   <p class="price-list__text p2">from 300 uah.</p>
                 </li>
                 <li class="price-list__item">
                   <h3 class="price-list__title p2">Men’s haircut</h3>
+                  <span class="price-list__separator"></span>
                   <p class="price-list__text p2">from 300 uah.</p>
                 </li>
                 <li class="price-list__item">
                   <h3 class="price-list__title p2">Men’s haircut</h3>
+                  <span class="price-list__separator"></span>
                   <p class="price-list__text p2">from 300 uah.</p>
                 </li>
                 <li class="price-list__item">
                   <h3 class="price-list__title p2">Men’s haircut</h3>
+                  <span class="price-list__separator"></span>
                   <p class="price-list__text p2">from 300 uah.</p>
                 </li>
               </ul>
@@ -186,18 +190,22 @@
               <ul class="price-list">
                 <li class="price-list__item">
                   <h3 class="price-list__title p2">Men’s haircut</h3>
+                  <span class="price-list__separator"></span>
                   <p class="price-list__text p2">from 300 uah.</p>
                 </li>
                 <li class="price-list__item">
                   <h3 class="price-list__title p2">Men’s haircut</h3>
+                  <span class="price-list__separator"></span>
                   <p class="price-list__text p2">from 300 uah.</p>
                 </li>
                 <li class="price-list__item">
                   <h3 class="price-list__title p2">Men’s haircut</h3>
+                  <span class="price-list__separator"></span>
                   <p class="price-list__text p2">from 300 uah.</p>
                 </li>
                 <li class="price-list__item">
                   <h3 class="price-list__title p2">Men’s haircut</h3>
+                  <span class="price-list__separator"></span>
                   <p class="price-list__text p2">from 300 uah.</p>
                 </li>
               </ul>
@@ -212,44 +220,54 @@
 
       <section class="benefits">
         <div class="container">
-          <ul class="benefits-list">
-            <li class="benefits-list__item">
-              <h3 class="benefits-list__title h2">
-                600
-                <sup class="l2">+</sup>
-              </h3>
-              <p class="benefits-list__text p1">Satisfied customers per day</p>
-            </li>
-            <li class="benefits-list__item">
-              <h3 class="benefits-list__title h2">
-                600
-                <sup class="l2">+</sup>
-              </h3>
-              <p class="benefits-list__text p1">Satisfied customers per day</p>
-            </li>
-            <li class="benefits-list__item">
-              <h3 class="benefits-list__title h2">
-                600
-                <sup class="l2">+</sup>
-              </h3>
-              <p class="benefits-list__text p1">Satisfied customers per day</p>
-            </li>
-            <li class="benefits-list__item">
-              <h3 class="benefits-list__title h2">
-                600
-                <sup class="l2">+</sup>
-              </h3>
-              <p class="benefits-list__text p1">Satisfied customers per day</p>
-            </li>
-          </ul>
-
           <div class="benefits-wrapper">
-            <p class="benefits-caption p1">Old traditional school</p>
-            <h2 class="benefits-title h2">¿Why people come to us?</h2>
-            <p class="benefits-description p2">
-              Only good things are said about us. But it's better to see and
-              feel 1 time than read 10 times.
-            </p>
+            <ul class="benefits-list">
+              <li class="benefits-list__item">
+                <h3 class="benefits-list__title h2">
+                  600
+                  <sup class="l2">+</sup>
+                </h3>
+                <p class="benefits-list__text p1">
+                  Satisfied customers per day
+                </p>
+              </li>
+              <li class="benefits-list__item">
+                <h3 class="benefits-list__title h2">
+                  600
+                  <sup class="l2">+</sup>
+                </h3>
+                <p class="benefits-list__text p1">
+                  Satisfied customers per day
+                </p>
+              </li>
+              <li class="benefits-list__item">
+                <h3 class="benefits-list__title h2">
+                  600
+                  <sup class="l2">+</sup>
+                </h3>
+                <p class="benefits-list__text p1">
+                  Satisfied customers per day
+                </p>
+              </li>
+              <li class="benefits-list__item">
+                <h3 class="benefits-list__title h2">
+                  600
+                  <sup class="l2">+</sup>
+                </h3>
+                <p class="benefits-list__text p1">
+                  Satisfied customers per day
+                </p>
+              </li>
+            </ul>
+
+            <div class="benefits-inner">
+              <p class="benefits-caption p1">Old traditional school</p>
+              <h2 class="benefits-title h2">¿Why people come to us?</h2>
+              <p class="benefits-description p2">
+                Only good things are said about us. But it's better to see and
+                feel 1 time than read 10 times.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -425,20 +443,25 @@
       </section>
 
       <section id="contacts" class="contacts">
-        <div class="container">
+        <div class="contacts-container">
           <div class="form-wrapper">
-            <h2 class="form-title h2">Online-booking</h2>
+            <div class="form-inner">
+              <h2 class="form-title h2">Online-booking</h2>
 
-            <form class="form">
-              <input class="form-input" type="text" />
-              <input class="form-input" type="text" />
+              <form class="form">
+                <input class="form-input p1" type="text" placeholder="Name*" />
+                <input class="form-input p1" type="text" placeholder="Phone*" />
 
-              <textarea class="form-textarea" name="" id=""></textarea>
+                <textarea
+                  class="form-textarea p1"
+                  placeholder="Message"
+                ></textarea>
 
-              <button class="form-button button-primary l1" type="submit">
-                send
-              </button>
-            </form>
+                <button class="form-button button-primary l1" type="submit">
+                  send
+                </button>
+              </form>
+            </div>
           </div>
 
           <div class="contacts-wrapper">
@@ -506,8 +529,8 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <p class="copyright">&#169; Copyright 2020</p>
+      <div class="footer-container container">
+        <p class="copyright p1">&#169; Copyright 2020</p>
 
         <ul class="footer-socials">
           <li class="footer-socials__item">

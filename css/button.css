@@ -3,4 +3,12 @@
   border: 1px solid #ff6c00;
   border-radius: 25px;
   min-width: 160px;
+  color: var(--button-color, var(--c-white));
+  background-color: var(--button-bg, transparent);
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  color: var(--button-hover-color, var(--c-white));
+  background-color: var(--button-hover-bg, var(--c-accent));
 }

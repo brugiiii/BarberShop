@@ -1,0 +1,13 @@
+.decor-line {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.decor-line::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1px;
+  background-color: currentColor;
+}
